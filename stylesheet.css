@@ -1,0 +1,58 @@
+html {
+    font-family: 'Source Code Pro', sans-serif;
+    background-color:#EEE;
+    min-width:1211px;
+}
+
+/* The navigation bar is the bar at the top of the screen that contains links to the main pages of the website. It stays on the top of the user's screen at all times for easy navigation. */
+nav {
+    /* Positioning for the navigation bar, it should stay at the top of the screen, and occupy the entire width of the browser */
+    position:fixed;
+    top:0px;
+    width:100%;
+    left:0px;
+    height:60px;
+    
+    /* Give the navigation bar a transparency effect */
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+/* This refers to the list of buttons in the navigation bar. */
+nav ul {
+    list-style-type:none;
+    position:fixed;
+    top:-16px;
+    right:60px;
+    height:60px;
+}
+
+/* These are the individual buttons in the navigation bar */
+nav ul * {
+    display:inline-block;
+    padding:20px;
+    margin-right:-10px;
+    position:relative;
+    left:-40px;
+    cursor:pointer;
+    transition:all 0.1s;
+    color:rgb(150, 150, 150);
+}
+
+/* This is the logo in the navigation bar */
+nav img {
+    position:fixed;
+    top:5px;
+    left:60px;
+    padding:0px;
+}
+
+/* A hover effect for the buttons on the navigation bar */
+nav ul li:hover {
+    color:rgb(94, 186, 64);
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+#current_page {
+    color:rgb(94, 186, 64);
+    background-color:rgba(0, 0, 0, 0.5);
+}

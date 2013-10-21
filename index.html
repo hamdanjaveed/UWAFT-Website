@@ -42,25 +42,40 @@ Requirements:
         
         <!-- Link to the font -->
         <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400' rel='stylesheet' type='text/css'>
+        
+        <!-- Links to JQuery and its color plugin -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+        <script src="script/jquery.color-2.1.2.min.js"></script>
+        
+        <!-- Links to the JavaScript files -->
+        <script src="index.js"></script>
+        <script src="nav.js"></script>
     </head>
     <body>
         <!-- Navigation bar -->
         <nav>
             <img src="images/logo.png" height="60px" />
             <ul>
-                <li id="current_page">Home</li>
-                <li>Cars</li>
-                <li>The Lab</li>
-                <li>The Team</li>
-                <li>Test Drive</li>
-                <li>Games</li>
-                <li>Contact</li>
+                <li id="nav_home" class="current_page">Home</li>
+                <li id="nav_cars">Cars</li>
+                <li id="nav_lab">The Lab</li>
+                <li id="nav_team">The Team</li>
+                <li id="nav_drive">Test Drive</li>
+                <li id="nav_games">Games</li>
+                <li id="nav_contact">Contact</li>
             </ul>
         </nav>
         
-        <div id="landing_div">
-            <img id="landing_image" src="images/landing_car.png" />
-            <h1><span>UWAFT</span> is a student run team dedicated to <span>innovation</span> and <span>design</span> excellence</h1>
+        <div id="container">
+            <!-- The first div on the landing page, contains a blurred image with text -->
+            <div id="landing_div">
+                <img id="landing_image" src="images/landing_car.png" />
+                <h1 id="landing_div_text"><span>UWAFT</span> is a student run team dedicated to <span>innovation</span> and <span>design</span> excellence</h1>
+            </div>
+            
+            <div id="main_car_div">
+<!--                <img src="images/landing_car.png" />-->
+            </div>
         </div>
     </body>
 </html>

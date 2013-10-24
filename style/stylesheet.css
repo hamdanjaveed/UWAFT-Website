@@ -11,7 +11,8 @@ nav {
     width:100%;
     left:0px;
     height:60px;
-    
+    min-width:1000px;
+
     /* Give the navigation bar a transparency effect */
     background-color:rgba(0, 0, 0, 0.75);
     
@@ -23,10 +24,11 @@ nav {
     /* This refers to the list of buttons in the navigation bar. */
     nav ul {
         list-style-type:none;
-        position:fixed;
-        top:-16px;
-        right:40px;
         height:60px;
+        width:auto;
+        min-width:700px;
+        float:right;
+        margin-top:0;
     }
     
     /* These are the individual buttons in the navigation bar */
@@ -39,14 +41,15 @@ nav {
         cursor:pointer;
         transition:all 0.1s;
         color:rgb(150, 150, 150);
+        float:left;
     }
     
     /* This is the logo in the navigation bar */
-    nav img {
-        position:fixed;
+    #logo {
         top:5px;
         left:60px;
-        padding:0px;
+        margin:5px 60px 0 60px;
+        height:60px;
     }
     
     /* A hover effect for the buttons on the navigation bar */

@@ -38,30 +38,31 @@ Requirements:
         <title>UWAFT | Home</title>
         
         <!-- Link to the css file -->
-        <link type="text/css" rel="stylesheet" href="style/stylesheet.css" />
-        <link type="text/css" rel="stylesheet" href="style/navbar.css" />
-        <link type="text/css" rel="stylesheet" href="style/landingimage.css" />
-        <link type="text/css" rel="stylesheet" href="style/infodiv1.css" />
-        <link type="text/css" rel="stylesheet" href="style/infodiv2.css" />
-        <link type="text/css" rel="stylesheet" href="style/infodiv3.css" />
-        <link type="text/css" rel="stylesheet" href="style/footer.css" />
+        <link type="text/css" rel="stylesheet" href="../css/reset.css" />
+        <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" />
+        <link type="text/css" rel="stylesheet" href="../css/navbar.css" />
+        
+        <link type="text/css" rel="stylesheet" href="css/landingimage.css" />
+        <link type="text/css" rel="stylesheet" href="css/infodiv1.css" />
+        <link type="text/css" rel="stylesheet" href="css/infodiv2.css" />
+        <link type="text/css" rel="stylesheet" href="css/infodiv3.css" />
+        <link type="text/css" rel="stylesheet" href="css/footer.css" />
         
         <!-- Link to the font -->
-        <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
         
         <!-- Links to JQuery and its color plugin -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="script/jquery.color-2.1.2.min.js"></script>
+        <script src="../script/jquery.color-2.1.2.min.js"></script>
         
         <!-- Links to the JavaScript files -->
         <script src="script/index.js"></script>
-        <script src="script/nav.js"></script>
+        <script src="../script/nav.js"></script>
     </head>
     <body>
         <!-- Navigation bar -->
         <nav>
-                <img src="images/logo.png" id="logo"/>
+            <img src="../image/logo.png" id="logo"/>
             <ul>
                 <li id="nav_home" class="current_page">Home</li>
                 <li id="nav_cars">Cars</li>
@@ -75,24 +76,14 @@ Requirements:
         
         <!-- The first div on the landing page, contains a blurred image with text -->
         <div id="landing_div">
-            <img id="landing_image" src="images/landing_car.png" />
-            <h1 id="landing_image_text"><span>Drive</span> change</h1>
+            <img id="landing_image" src="image/landing_car.png" />
+            <h1 id="landing_image_text"><span>Drive </span>change</h1>
         </div>
-            
-        <div id="info_div_1">
-                
-        </div>
-
-        <div id="info_div_2">
-                
-        </div>
-
-        <div id="info_div_3">
-                
-        </div>
-            
-        <div id="footer">
-            
-        </div>
+        
+        <!-- Placeholders -->
+        <div id="info_div_1"></div>
+        <div id="info_div_2"></div>
+        <div id="info_div_3"></div>
+        <div id="footer"></div>
     </body>
 </html>

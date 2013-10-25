@@ -1,0 +1,27 @@
+#landing_div {
+    position:relative;
+}
+
+    #landing_image {
+        position:relative;
+        width:100%;
+        height:100%;
+        left:0px;
+        top:0px;
+    }
+
+    #landing_image_text {
+        position:absolute;
+        top:50%;
+        left:10%;
+        right:10%;
+        font-size:26px;
+        font-weight:400;
+        color:#EEE;
+        text-align:center;
+        opacity:0.0;
+    }
+
+    #landing_image_text span {
+        color:#FFF;
+    }

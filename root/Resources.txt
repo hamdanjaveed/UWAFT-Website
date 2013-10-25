@@ -1,0 +1,3 @@
+http://tympanus.net/codrops/2013/07/02/loading-effects-for-grid-items-with-css-animations/
+http://codepen.io/furfoxsnakes/pen/zwluC
+http://codecanyon.net/item/captions/full_screen_preview/159760?ref=janecross

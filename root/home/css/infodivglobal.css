@@ -1,0 +1,33 @@
+.content
+{
+	margin:0 auto 0 auto;
+	padding:50px 50px 50px 50px;
+	height:auto;
+	width:1000px;
+	box-shadow:0px 0px 5px #000;
+}
+
+	.content-row
+	{
+		width:900px;
+		height:300px;
+	}
+
+		.content-text
+		{
+			width:650px;
+			height:100%;
+			padding:0 50px 0 0px;
+			font-size:22px;
+			color:#555555;
+		}
+
+		.right
+		{
+			float:right;
+		}
+
+		.left
+		{
+			float:left;
+		}

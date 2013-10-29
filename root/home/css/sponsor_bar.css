@@ -1,0 +1,8 @@
+#sponsor_bar {
+    background-color:rgb(60, 60, 60);
+    
+    position:absolute;
+    height:100%;
+    width:200px;
+    top:0px;
+}

@@ -1,12 +1,4 @@
 #info_div_2 {
-    position:relative;
-    height:500px;
-   /* box-shadow:0px 0px 20px #000; */
-    background-color:#BBB;
+    background-color:#DDD;
     z-index:1;
 }
-
-    #info_div_2 {
-        position:relative;
-        width:100%;
-    }

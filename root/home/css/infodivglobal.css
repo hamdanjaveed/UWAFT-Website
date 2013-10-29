@@ -15,9 +15,9 @@
 
 		.content-text
 		{
-			width:650px;
+			width:600px;
 			height:100%;
-			padding:0 50px 0 0px;
+			padding:0 50px 0 50px;
 			font-size:22px;
 			color:#555555;
 		}

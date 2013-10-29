@@ -1,0 +1,15 @@
+#sponsorbar {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    left:0px;
+    height:60px;
+    min-width:1000px;
+
+    /* Give the navigation bar a transparency effect */
+    background-color:rgba(0, 0, 0, 0.85);
+    
+    z-index:100;
+    
+    box-shadow:0px 0px 20px #222;
+}

@@ -1,5 +1,7 @@
 #landing_div {
     position:relative;
+    margin:0 auto 0 auto;
+
 }
 
     #landing_image {
@@ -25,3 +27,9 @@
     #landing_image_text span {
         color:#FFF;
     }
+
+    .bottom-shadow {
+    -webkit-box-shadow: 0 8px 6px 0px black;
+       -moz-box-shadow: 0 8px 6px 0px black;
+            box-shadow: 0 8px 6px 0px black;
+}

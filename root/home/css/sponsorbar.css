@@ -3,11 +3,17 @@
     bottom:0px;
     width:100%;
     left:0px;
-    height:60px;
-    min-width:1000px;
+    height:40px;
+    padding:10px 10px 10px 10px;
+    min-width:980px;
+    text-align:left;
+    color:white;
+    font-weight:400;
+    font-style:italic;
+    font-size:40px;
 
     /* Give the navigation bar a transparency effect */
-    background-color:rgba(0, 0, 0, 0.85);
+    background-color:rgba(150, 150, 150, 0.85);
     
     z-index:100;
     

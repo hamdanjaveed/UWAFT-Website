@@ -6,7 +6,8 @@
 .info_div_text {
     color:#DC643C;
     text-align:center;
-    display:block;
+    display:table-cell;
+    vertical-align:middle;
     position:absolute;
     height:auto;
     bottom:0px;

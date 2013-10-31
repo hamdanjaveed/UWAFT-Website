@@ -22,7 +22,7 @@
 
     #landing_image_text {
         position:absolute;
-        top:55%;
+        top:42%;
         left:10%;
         right:10%;
         font-size:26px;
@@ -36,8 +36,43 @@
         color:#FFF;
     }
 
+    .car_info {
+        position:absolute;
+        top:0px;
+        color:#EEE;
+        font-size:1.25em;
+        font-weight:300;
+        opacity:0.0;
+        text-align:center;
+    }
+
     .bottom-shadow {
     -webkit-box-shadow: 0 8px 6px 0px black;
        -moz-box-shadow: 0 8px 6px 0px black;
             box-shadow: 0 8px 6px 0px black;
+}
+
+
+#engine {
+    top:400px;
+    left:20px;
+}
+
+#headlights {
+    top:150px;
+    left:250px;
+}
+
+#output {
+    left:950px;
+    top:565px;
+}
+
+.figure {
+    font-size:1.5em;
+}
+
+#range {
+    top:100px;
+    left:1100px;
 }

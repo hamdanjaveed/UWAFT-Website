@@ -1,5 +1,5 @@
 #sponsorbar {
-    position:absolute;
+    position:relative;
     bottom:0px;
     width:100%;
     left:0px;
@@ -16,5 +16,5 @@
     /* Give the navigation bar a transparency effect */
     background-color:rgba(150, 150, 150, 0.85);
     
-    box-shadow:0px 0px 20px #222;
+/*    box-shadow:0px 0px 20px #222;*/
 }

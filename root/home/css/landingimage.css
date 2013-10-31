@@ -3,7 +3,16 @@
     margin:0 auto 0 auto;
 }
 
-    #landing_image {
+    #landing_image_sharp {
+        position:absolute;
+        width:100%;
+        height:100%;
+        left:0px;
+        top:0px;
+        opacity:0.0;
+    }
+
+    #landing_image_blur {
         position:relative;
         width:100%;
         height:100%;

@@ -3,16 +3,25 @@
     height: 500px;
 }
 
-.info_div_text {
+.info_div_text_cell {
     color:#DC643C;
-    text-align:center;
     display:table-cell;
     vertical-align:middle;
-    position:absolute;
+    text-align:center;
     height:auto;
     bottom:0px;
     top:0px;
     right:50%;
     left:0px;
     padding:50px;
+}
+p {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.info_div_text_table {
+    display:table;
+    width:50%;
+    height:100%;
 }

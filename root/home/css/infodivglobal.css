@@ -20,8 +20,16 @@ p {
     vertical-align:middle;
 }
 
-.info_div_text_table {
+.info_div_odd_text_table {
     display:table;
     width:50%;
+    height:100%;
+}
+
+.info_div_even_text_table {
+    display:table;
+    position:absolute;
+    width:50%;
+    right:0px;
     height:100%;
 }

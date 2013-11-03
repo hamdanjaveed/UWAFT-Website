@@ -2,3 +2,8 @@
     background-color:#EEE;
     z-index:2;
 }
+#info_div_1 img {
+    position:absolute;
+    top:30%;
+    right:10%;
+}

@@ -8,12 +8,11 @@
 
 .landing_image {
     position:relative;
-    display:inline-block;
     height:100%;
     top:0px;
 }
 
-#landing_image_sharp {    
+#landing_image_sharp {
     opacity:0.0;
     top:-475px;
 }
@@ -35,8 +34,7 @@
 }
 
 .car_info {
-    position:absolute;
-    top:0px;
+    position:relative;
     color:#EEE;
     font-size:1.25em;
     font-weight:300;
@@ -46,13 +44,13 @@
 
 /* The information about the car */
 #engine {
-    top:400px;
-    left:20px;
+    top:-550px;
+    left:-250px;
 }
 
 #headlights {
-    top:150px;
-    left:250px;
+    top:-900px;
+    left:-250px;
 }
 
 #output {
@@ -65,8 +63,8 @@
 }
 
 #range {
-    top:100px;
-    left:1100px;
+    top:-720px;
+    left:220px;
 }
 
 /* Sponsor bar */

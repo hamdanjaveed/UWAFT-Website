@@ -37,41 +37,28 @@ Requirements:
     <head>
         <title>UWAFT | Home</title>
         
-        <!-- Link to the css file -->
-        <link type="text/css" rel="stylesheet" href="../css/reset.css" />
-        <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" />
-        <link type="text/css" rel="stylesheet" href="../css/navbar.css" />
+        <!-- Link to the css files -->
+        <link type="text/css" rel="stylesheet" href="../root_css/stylesheet.css"/>
+        <link type="text/css" rel="stylesheet" href="home.css"/>
         
-        <link type="text/css" rel="stylesheet" href="css/landingimage.css" />
-
-        <link type="text/css" rel="stylesheet" href="css/sponsorbar.css" />
-        <link type="text/css" rel="stylesheet" href="css/infodivglobal.css" />
-        <link type="text/css" rel="stylesheet" href="css/infodiv1.css" />
-        <link type="text/css" rel="stylesheet" href="css/infodiv2.css" />
-        <link type="text/css" rel="stylesheet" href="css/infodiv3.css" />
-        <link type="text/css" rel="stylesheet" href="css/footer.css" />
-        
-        <link rel="icon" type="image/png" href="../image/favicon.ico" />
-
+        <!-- The icon in the tab of the web browser -->
+        <link rel="icon" type="image/png" href="../root_image/favicon.ico"/>
         
         <!-- Link to the font -->
-        <link href='http://fonts.googleapis.com/css?family=Quicksand|Oxygen:400,300|Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Quicksand|Oxygen:400,300|Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'/>
         
         <!-- Links to JQuery and its color plugin -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="../script/jquery.color-2.1.2.min.js"></script>
+        <script src="../root_script/jquery.color-2.1.2.min.js"></script>
         
         <!-- Links to the JavaScript files -->
         <script src="script/index.js"></script>
-        <script src="../script/nav.js"></script>
-
-        <!--Link to the Tab Icon-->
-        <link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+        <script src="../root_script/nav.js"></script>
     </head>
     <body>
         <!-- Navigation bar -->
         <nav>
-            <img src="../image/logo.png" id="logo"/>
+            <img src="../root_image/logo.png" id="logo"/>
             <ul>
                 <li id="nav_home" class="current_page">Home</li>
                 <li id="nav_cars">Cars</li>
@@ -85,27 +72,26 @@ Requirements:
         
         <!-- The first div on the landing page, contains a blurred image with text -->
         <div id="landing_div">
-            <img id="landing_image_blur" src="image/landing_image_blur.png" class="bottom-shadow"/>
-            <img id="landing_image_sharp" src="image/landing_image_sharp.png" class="bottom-shadow"/>
+            <img id="landing_image_blur" class="landing_image" src="image/landing_image_blur.png" class="bottom-shadow"/>
+            <img id="landing_image_sharp" class="landing_image" src="image/landing_image_sharp.png" class="bottom-shadow"/>
             <h1 id="landing_image_text"><span>Drive </span>change</h1>
             
             <h1 class="car_info" id="engine">UP TO <span class="figure">85%</span> ETHANOL<br />COMPATIBLE ENGINE</h1>
-            <div id="dash"></div>
             <h1 class="car_info" id="headlights"><span class="figure">0-60</span> MPH IN <span class="figure">6.9</span>s</h1>
             <h1 class="car_info" id="output"><span class="figure">281 HP</span><br />PEAK ELECTRIC OUTPUT</h1>
             <h1 class="car_info" id="range"><span class="figure">265 KM</span><br />MAX RANGE</h1>
         </div>
         
         <div id="sponsorbar">
-            <img src="image/sponsors/sponsor1.png" height="40">
-            <img src="image/sponsors/sponsor3.png" height="40">
-            <img src="image/sponsors/sponsor4.png" height="40">
-            <img src="image/sponsors/sponsor5.png" height="40">
-            <img src="image/sponsors/sponsor6.png" height="40">
-            <img src="image/sponsors/sponsor7.png" height="40">
-            <img src="image/sponsors/sponsor8.png" height="40">
-            <img src="image/sponsors/sponsor9.png" height="40">
-            <img src="image/sponsors/sponsor10.png" height="40">
+            <img src="image/sponsors/sponsor1.png"/>
+            <img src="image/sponsors/sponsor3.png"/>
+            <img src="image/sponsors/sponsor4.png"/>
+            <img src="image/sponsors/sponsor5.png"/>
+            <img src="image/sponsors/sponsor6.png"/>
+            <img src="image/sponsors/sponsor7.png"/>
+            <img src="image/sponsors/sponsor8.png"/>
+            <img src="image/sponsors/sponsor9.png"/>
+            <img src="image/sponsors/sponsor10.png"/>
         </div>
         
         <!-- Placeholders -->

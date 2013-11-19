@@ -1,0 +1,158 @@
+/* The Landing div that contains the image */
+#landing_div {
+    position:relative;
+    margin:0 auto 0 auto;
+    height:473px;
+    text-align:center;
+}
+
+.landing_image {
+    position:relative;
+    display:inline-block;
+    height:100%;
+    top:0px;
+}
+
+#landing_image_sharp {    
+    opacity:0.0;
+    top:-475px;
+}
+
+#landing_image_blur {
+    
+}
+
+#landing_image_text {
+    position:absolute;
+    top:42%;
+    left:10%;
+    right:10%;
+    font-size:26px;
+    font-weight:400;
+    color:#EEE;
+    text-align:center;
+    opacity:0.0;
+}
+
+.car_info {
+    position:absolute;
+    top:0px;
+    color:#EEE;
+    font-size:1.25em;
+    font-weight:300;
+    opacity:0.0;
+    text-align:center;
+}
+
+/* The information about the car */
+#engine {
+    top:400px;
+    left:20px;
+}
+
+#headlights {
+    top:150px;
+    left:250px;
+}
+
+#output {
+    left:950px;
+    top:565px;
+}
+
+.figure {
+    font-size:1.5em;
+}
+
+#range {
+    top:100px;
+    left:1100px;
+}
+
+/* Sponsor bar */
+#sponsorbar {
+    position:relative;
+    bottom:0px;
+    width:100%;
+    left:0px;
+    height:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    min-width:980px;
+    text-align:center;
+    color:white;
+    font-weight:400;
+    font-style:italic;
+    font-size:40px;
+
+    /* Give the navigation bar a transparency effect */
+    background-color:rgba(150, 150, 150, 0.85);
+    
+/*    box-shadow:0px 0px 20px #222;*/
+}
+
+.info_div {
+    position:relative;
+    height: 500px;
+}
+
+.info_div_text_cell {
+    color:#DC643C;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    height:auto;
+    bottom:0px;
+    top:0px;
+    right:50%;
+    left:0px;
+    padding:50px;
+}
+p {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.info_div_odd_text_table {
+    display:table;
+    width:50%;
+    height:100%;
+}
+
+.info_div_even_text_table {
+    display:table;
+    position:absolute;
+    width:50%;
+    right:0px;
+    height:100%;
+}
+
+
+#info_div_1 {
+    background-color:#EEE;
+    z-index:2;
+}
+#info_div_1 img {
+    position:absolute;
+    top:30%;
+    right:10%;
+}
+
+#info_div_2 {
+    background-color:#DDD;
+    z-index:1;
+}
+
+#info_div_3 {
+    background-color:#EEE;
+    z-index:2;
+}
+
+#footer {
+    position:relative;
+    height:300px;
+    background-color:rgb(60, 60, 60);
+}
+#sponsorbar img {
+    height:40px;
+}

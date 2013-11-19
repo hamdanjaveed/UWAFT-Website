@@ -2,10 +2,10 @@
 #landing_div {
     position:relative;
     margin:0 auto 0 auto;
-    height:473px;
+    height:600px;
     text-align:center;
 }
-
+/* 1217 */
 .landing_image {
     position:relative;
     height:100%;
@@ -14,7 +14,7 @@
 
 #landing_image_sharp {
     opacity:0.0;
-    top:-475px;
+    top:-600px;
 }
 
 #landing_image_blur {
@@ -44,18 +44,18 @@
 
 /* The information about the car */
 #engine {
-    top:-550px;
-    left:-250px;
+    top:-700px;
+    left:-350px;
 }
 
 #headlights {
-    top:-900px;
-    left:-250px;
+    top:-1100px;
+    left:-350px;
 }
 
 #output {
-    left:950px;
-    top:565px;
+    top:-1200px;
+    left:400px;
 }
 
 .figure {
@@ -63,8 +63,8 @@
 }
 
 #range {
-    top:-720px;
-    left:220px;
+    top:-870px;
+    left:270px;
 }
 
 /* Sponsor bar */

@@ -44,18 +44,18 @@
 
 /* The information about the car */
 #engine {
-    top:140px;
-    left:275px;
+    top:25%;
+    left:20%;
 }
 
 #headlights {
-    top:500px;
-    left:350px;
+    top:85%;
+    left:25%;
 }
 
 #output {
-    top:450px;
-    left:900px;
+    top:80%;
+    right:20%;
 }
 
 .figure {

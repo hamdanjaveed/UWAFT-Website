@@ -6,6 +6,8 @@ html {
     font-family: 'Oxygen', sans-serif;
     background-color:rgb(0, 0, 0);
     min-width:1217px;
+    max-width:1500px;
+    margin:0 auto 0 auto;
 }
 
 /* The navigation bar is the bar at the top of the screen that contains links to the main pages of the website. It stays on the top of the user's screen at all times for easy navigation. */
@@ -14,10 +16,10 @@ nav {
     position:fixed;
     top:0px;
     width:100%;
-    left:0px;
     height:60px;
     min-width:1000px;
-
+    max-width:1500px;
+    margin:0 auto 0 auto;
     /* Give the navigation bar a transparency effect */
     background-color:rgba(0, 0, 0, 0.75);
     

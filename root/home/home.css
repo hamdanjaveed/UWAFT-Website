@@ -34,7 +34,7 @@
 }
 
 .car_info {
-    position:relative;
+    position:absolute;
     color:#EEE;
     font-size:1.25em;
     font-weight:300;
@@ -44,18 +44,18 @@
 
 /* The information about the car */
 #engine {
-    top:-700px;
-    left:-350px;
+    top:140px;
+    left:275px;
 }
 
 #headlights {
-    top:-1100px;
-    left:-350px;
+    top:500px;
+    left:350px;
 }
 
 #output {
-    top:-1200px;
-    left:400px;
+    top:450px;
+    left:900px;
 }
 
 .figure {

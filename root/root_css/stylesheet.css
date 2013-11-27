@@ -4,7 +4,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* CSS Applied to the entire DOM */
 html {
     font-family: 'Oxygen', sans-serif;
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(240, 240, 240);
     min-width:1217px;
     max-width:1500px;
     margin:0 auto 0 auto;
@@ -20,8 +20,15 @@ nav {
     min-width:1000px;
     max-width:1500px;
     margin:0 auto 0 auto;
-    /* Give the navigation bar a transparency effect */
-    background-color:rgba(0, 0, 0, 0.75);
+
+    background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,254,254,1)), color-stop(100%,rgba(209,209,209,0.7))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%,rgba(209,209,209,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(254,254,254,1) 0%,rgba(209,209,209,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%,rgba(209,209,209,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(254,254,254,1) 0%,rgba(209,209,209,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#b3d1d1d1',GradientType=0 ); /* IE6-9 */
+
     
     z-index:100;
     

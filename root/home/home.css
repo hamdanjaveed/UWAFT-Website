@@ -21,6 +21,10 @@
     
 }
 
+#green
+{
+    color:#5EBA40;
+}
 #landing_image_text {
     position:absolute;
     top:42%;
@@ -43,9 +47,15 @@
 }
 
 /* The information about the car */
-#engine {
-    top:25%;
+#maintitle {
+    top:20%;
     left:20%;
+    font-size:1.7em;
+}
+
+#engine {
+    top:13%;
+    right:20%;
 }
 
 #headlights {
@@ -95,17 +105,24 @@
 }
 
 .info_div_text_cell {
-    color:#DC643C;
+    color:#666666;
     display:table-cell;
     vertical-align:middle;
-    text-align:center;
+    text-align:left;
     height:auto;
     bottom:0px;
     top:0px;
     right:50%;
     left:0px;
     padding:50px;
+    font-size:24px;
 }
+
+.subtitle {
+    font-size:36px;
+    font-weight:300;
+}
+
 p {
     display:table-cell;
     vertical-align:middle;
@@ -113,37 +130,45 @@ p {
 
 .info_div_odd_text_table {
     display:table;
-    width:50%;
+    width:40%;
     height:100%;
 }
 
 .info_div_even_text_table {
     display:table;
     position:absolute;
-    width:50%;
-    right:0px;
+    width:40%;
+    right:20%;
     height:100%;
 }
 
 
 #info_div_1 {
-    background-color:#EEE;
+    background-color:#fff;
     z-index:2;
 }
 #info_div_1 img {
     position:absolute;
-    top:30%;
-    right:10%;
+    top:0;
+    right:0;
+    z-index: 0;
 }
 
 #info_div_2 {
-    background-color:#DDD;
+    background-color:#FFFFFF;
     z-index:1;
 }
 
 #info_div_3 {
-    background-color:#EEE;
+    background-color:#FFF;
     z-index:2;
+}
+
+#info_div_3 img {
+    position:absolute;
+    top:0;
+    right:0;
+    z-index: 0;
 }
 
 #footer {

@@ -4,33 +4,25 @@
     margin:0 auto 0 auto;
     height:600px;
     text-align:center;
-}
-/* 1217 */
-.landing_image {
-    position:relative;
-    height:100%;
-    top:0px;
+    background-image:url("image/malibu1.png");
+    background-size:cover;
+    background-position:50% 50%;
 }
 
-#landing_image_sharp {
-    opacity:0.0;
-    top:-600px;
+#landing_div_blur {
+    height:600px;
+    background-image:url("image/malibu1blur.png");
+    background-size:cover;
+    background-position:50% 50%;
+    opacity:1.0;
 }
 
-#landing_image_blur {
-    
-}
-
-#green
-{
-    color:#5EBA40;
-}
 #landing_image_text {
     position:absolute;
     top:42%;
     left:10%;
     right:10%;
-    font-size:26px;
+    font-size:4em;
     font-weight:400;
     color:#EEE;
     text-align:center;

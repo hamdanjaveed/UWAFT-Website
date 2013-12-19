@@ -13,11 +13,4 @@ $(document).ready(function() {
             }, 1000);
         });
     });
-    
-    // evoked whenever the user scrolls
-    $(window).scroll(function() {
-        var currentWindowScrollTop = $(this).scrollTop();
-        var newImageScrollTop = currentWindowScrollTop / 30.0;
-        $("#landing_image_text").css({top:50 - newImageScrollTop + "%"});
-    });
 });

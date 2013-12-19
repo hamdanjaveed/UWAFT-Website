@@ -1,36 +1,94 @@
+<!-- Website requirements (taken from the facebook page, see:https://www.facebook.com/groups/591982934192138/permalink/592857804104651/)
+
+Problems with the old website:
+    - looks horrible
+    - boring
+    - generic
+
+The solution needs to:
+    - be unique
+    - think auto manufacturer
+        > http://www.teslamotors.com
+        > http://www.ds5.citroen.com
+
+Requirements:
+    - land on uwaft.com and see cars
+    - market the current vehicle (Malibu)
+    - showcase the older cars as well
+    - for each vehicle we need to show:
+        > pictures
+        > features
+        > specs
+        > architecture
+    - have a page to show the lab, facility and other pictures
+    - have a page to show the team, the categories are:
+        > engineering
+            - core
+            - co-op
+            - 4th year
+        > business
+        > communications
+    - a test drive button
+    - a place to play mini-games
+-->
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>UWAFT | Cars</title>
+        <title>UWAFT | Meet the Team</title>
         
-        <!-- Link to the css file -->
-        <link type="text/css" rel="stylesheet" href="../css/reset.css" />
-        <link type="text/css" rel="stylesheet" href="../css/stylesheet.css" />
-        <link type="text/css" rel="stylesheet" href="../css/navbar.css" />
+        <!-- Link to the css files -->
+        <link type="text/css" rel="stylesheet" href="../root_css/stylesheet.css"/>
+        <link type="text/css" rel="stylesheet" href="team.css"/>
+        
+        <!-- The icon in the tab of the web browser -->
+        <link rel="icon" type="image/png" href="../root_image/favicon.ico"/>
         
         <!-- Link to the font -->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Quicksand|Oxygen:400,300|Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css'/>
         
         <!-- Links to JQuery and its color plugin -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
-        <script src="../script/jquery.color-2.1.2.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="../root_script/jquery.color-2.1.2.min.js"></script>
         
-        <!-- Link to the JavaScript file -->
-        <script src="../script/nav.js"></script>
+        <!-- Links to the JavaScript files -->
+        <script src="script/team.js"></script>
+        <script src="../root_script/nav.js"></script>
     </head>
     <body>
         <!-- Navigation bar -->
         <nav>
-            <img src="../image/logo.png" id="logo" />
-            <ul>
-                <li id="nav_home">Home</li>
-                <li id="nav_cars">Cars</li>
-                <li id="nav_lab">The Lab</li>
-                <li id="nav_team" class="current_page">The Team</li>
-                <li id="nav_drive">Test Drive</li>
-                <li id="nav_games">Games</li>
-                <li id="nav_contact">Contact</li>
-            </ul>
+            <div id="nav">
+                <img src="../root_image/logo.png" id="logo"/>
+                <ul>
+                    <li id="nav_home">Home</li>
+                    <li id="nav_cars">Cars</li>
+                    <li id="nav_team"  class="current_page">The Team</li>
+                    <li id="nav_drive">Test Drive</li>
+                    <li id="nav_games">Games</li>
+                    <li id="nav_contact">Contact</li>
+                </ul>
+            </div>
         </nav>
+        
+    
+        <!-- Placeholders -->
+        <div class="info_div" id="info_div_1">
+            <div class="info_div_odd_text_table">
+                <div class="info_div_text_cell">
+                    <span class="subtitle">Kelvin Law - Team Lead
+                    </span>
+                    <br>
+                    <br>
+                    Program: Candiate for Master of Applied Science, Mechanical Engineering 
+                    <br>
+                    <br>
+                    Hometown: Toronto, ON
+                </div>
+            </div>
+            <img src="image/team/kelvinlaw.jpg" height="100%" width="15%" style="float:right"/>
+        </div>
+
+        <div id="footer"></div>
     </body>
 </html>

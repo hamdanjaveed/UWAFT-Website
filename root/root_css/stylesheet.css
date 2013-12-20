@@ -11,7 +11,7 @@ html {
 }
 
 nav {
-    position:relative;
+    position:fixed;
     min-width:1200px;
     width:100%;
     max-width:1500px;
@@ -31,13 +31,13 @@ nav {
 /* The navigation bar is the bar at the top of the screen that contains links to the main pages of the website. It stays on the top of the user's screen at all times for easy navigation. */
 #nav {
     /* Positioning for the navigation bar, it should stay at the top of the screen, and occupy the entire width of the browser */
-    position:absolute;
+    position:fixed;
     top:0px;
     height:60px;
     width:100%;
+    max-width:1500px;
+    min-width:1500px;
     margin:0 auto 0 auto;
-
-    
 }
 
     /* This refers to the list of buttons in the navigation bar. */
@@ -76,6 +76,12 @@ nav {
     
     .current_page {
         color:rgb(94, 186, 64);
+    }
+
+    #nav_space {
+        height:60px;
+        position:relative;
+        width:100%;
     }
 
 #footer {

@@ -19,11 +19,11 @@
 
 #landing_image_text {
     position:absolute;
-    top:42%;
+    top:48%;
     left:10%;
     right:10%;
-    font-size:4em;
-    font-weight:100;
+    font-size:3.5em;
+    font-weight:300;
     color:#EEE;
     text-align:center;
     opacity:0.0;

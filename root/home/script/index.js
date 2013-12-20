@@ -1,8 +1,8 @@
-var time = 1500;
+var time = 1000;
 
 $(document).ready(function() {
     // animate the landing text to fade in and move down slightly
-    $("#landing_image_text").animate({top: "38%", opacity: 1.0}, time, function() {
+    $("#landing_image_text").animate({top: "44%", opacity: 1.0}, time, function() {
         // when the text is done animating, animate certain words to a green color
         $("#landing_image_text span").animate({color:"#5EBA40"}, time, function() {
             setTimeout(function() {

@@ -34,13 +34,150 @@ Requirements:
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>UWAFT | Home</title>
-        
-        <!-- Link to the global css file -->
-        <link type="text/css" rel="stylesheet" href="../root_css/stylesheet.css" />
-    </head>
-    <body>
-        <h1>Welcome to the UWAFT Website</h1>
-    </body>
+
+<head>
+    <title>UWAFT | Home</title>
+
+    <!-- Link to the css files -->
+    <link type="text/css" rel="stylesheet" href="../root_css/stylesheet.css" />
+    <link type="text/css" rel="stylesheet" href="home.css" />
+
+    <!-- The icon in the tab of the web browser -->
+    <link rel="icon" type="image/png" href="../root_image/favicon.ico" />
+
+    <!-- Link to the font -->
+    <link href='http://fonts.googleapis.com/css?family=Quicksand|Oxygen:400,300|Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css' />
+
+    <!-- Links to JQuery and its color plugin -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../root_script/jquery.color-2.1.2.min.js"></script>
+
+    <!-- Links to the JavaScript files -->
+    <script src="script/index.js"></script>
+    <script src="../root_script/nav.js"></script>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div id="nav">
+            <img src="../root_image/logo.png" id="logo" />
+            <ul>
+                <li id="nav_home" class="current_page">Home</li>
+                <li id="nav_cars">Cars</li>
+                <li id="nav_team">The Team</li>
+                <li id="nav_drive">Test Drive</li>
+                <li id="nav_games">Games</li>
+                <li id="nav_contact">Contact</li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- The first div on the landing page, contains a blurred image with text -->
+    <div id="landing_div">
+        <div id="landing_div_blur"></div>
+
+        <h1 id="landing_image_text">
+            <span id="green">Drive</span>
+            change
+        </h1>
+
+        <h1 class="car_info" id="engine">
+            UP TO
+            <span class="figure">85%</span>
+            ETHANOL
+            <br/>COMPATIBLE ENGINE
+        </h1>
+        <h1 class="car_info" id="headlights">
+            <span class="figure">0-60</span>
+            MPH IN
+            <span class="figure">6.9</span>
+            s
+        </h1>
+        <h1 class="car_info" id="output">
+            <span class="figure">281 HP</span>
+            <br/>PEAK ELECTRIC OUTPUT
+        </h1>
+        <h1 class="car_info" id="range">
+            <span class="figure">265 KM</span>
+            <br/>MAX RANGE
+        </h1>
+    </div>
+
+    <div id="sponsorbar">
+        <img src="image/sponsors/sponsor1.png" />
+        <img src="image/sponsors/sponsor3.png" />
+        <img src="image/sponsors/sponsor4.png" />
+        <img src="image/sponsors/sponsor5.png" />
+        <img src="image/sponsors/sponsor6.png" />
+        <img src="image/sponsors/sponsor7.png" />
+        <img src="image/sponsors/sponsor8.png" />
+        <img src="image/sponsors/sponsor9.png" />
+        <img src="image/sponsors/sponsor10.png" />
+    </div>
+
+    <!-- Placeholders -->
+    <div class="info_div" id="info_div_1">
+        <div class="info_div_odd_text_table">
+            <div class="info_div_text_cell">
+                <span class="subtitle">Designed to deliver both fuel efficiency and performance.
+                </span>
+                <br>
+                <br>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            </div>
+        </div>
+        <img src="image/info_image_3.jpg" height="100%" style="float:right" />
+    </div>
+
+    <div class="info_div" id="info_div_2">
+        <img src="image/info_image_1.png" height="100%" style="float:left" />
+        <div class="info_div_even_text_table">
+
+            <div class="info_div_text_cell">
+                <span class="subtitle">
+                    What people are saying about UWAFT
+                </span>
+                <br>
+                <br>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                <br>
+                <br>"Hey look, another quote!"
+            </div>
+        </div>
+    </div>
+
+    <div class="info_div" id="info_div_3">
+        <div class="info_div_odd_text_table">
+            <div class="info_div_text_cell">
+                <span class="subtitle">
+                    With our revolutionary engine etc etc this is awesome. Our engine produces 3 hp per kilowatt of hourse.
+                </span>
+                <br>
+                <br>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            </div>
+        </div>
+        <img src="image/info_image_2.jpg" height="100%" width="60%" style="float:right" />
+    </div>
+
+    <div id="footer">
+        <a class="social" id="email" href="mailto:info@uwaft.com"></a>
+        <a class="social" id="facebook" href="https://www.facebook.com/uwaft?fref=ts"></a>
+        <a class="social" id="twitter" href="https://twitter.com/UWAFT"></a>
+
+        <p>© 2013 University of Waterloo Alternative Fuels Team</p>
+        <a href="https://twitter.com/UWAFT" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @UWAFT</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + '://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, 'script', 'twitter-wjs');
+        </script>
+    </div>
+</body>
+
 </html>

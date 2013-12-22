@@ -1,0 +1,59 @@
+/* line 3, ../sass/nav.scss */
+nav {
+  position: fixed;
+  z-index: 1;
+  /* Width and height properties */
+  width: 100%;
+  min-width: 1200px;
+  max-width: 1500px;
+  height: 60px;
+  top: 0px;
+  /* Gradient background and shadow */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #d1d1d1));
+  background-image: -webkit-linear-gradient(#fefefe, #d1d1d1);
+  background-image: -moz-linear-gradient(#fefefe, #d1d1d1);
+  background-image: -o-linear-gradient(#fefefe, #d1d1d1);
+  background-image: linear-gradient(#fefefe, #d1d1d1);
+  box-shadow: 0px 0px 10px #222;
+}
+/* line 18, ../sass/nav.scss */
+nav ul {
+  list-style-type: none;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  right: 60px;
+  margin-top: 0px;
+}
+/* line 26, ../sass/nav.scss */
+nav ul * {
+  display: inline-block;
+  padding: 22px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.1s;
+  color: #969696;
+}
+/* line 35, ../sass/nav.scss */
+nav ul li:hover {
+  color: #5eba40;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 41, ../sass/nav.scss */
+nav #logo {
+  top: 5px;
+  left: 60px;
+  margin: 5px 60px 0 60px;
+  height: 60px;
+}
+/* line 48, ../sass/nav.scss */
+nav .current_page {
+  color: #5eba40;
+}
+
+/* line 53, ../sass/nav.scss */
+#nav_space {
+  height: 60px;
+  position: relative;
+  width: 100%;
+}

@@ -1,0 +1,57 @@
+@import "compass";
+
+nav {    
+    position: fixed;
+    z-index:1;
+    
+    /* Width and height properties */
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1500px;
+    height: 60px;
+    top: 0px;
+    
+    /* Gradient background and shadow */
+    @include background-image(linear-gradient(rgba(254, 254, 254, 1), rgba(209, 209, 209, 1)));
+    box-shadow: 0px 0px 10px #222;
+
+    ul {
+        list-style-type:none;
+        height: 60px;
+        position: absolute;
+        top: 0px;
+        right: 60px;
+        margin-top: 0px;
+    
+        * {
+            display: inline-block;
+            padding: 22px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.1s;
+            color: rgb(150, 150, 150);
+        }
+    
+        li:hover {
+            color: rgb(94, 186, 64);
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    #logo {
+        top: 5px;
+        left: 60px;
+        margin: 5px 60px 0 60px;
+        height: 60px;
+    }
+
+    .current_page {
+        color: rgb(94, 186, 64);
+    }
+}
+
+#nav_space {
+    height: 60px;
+    position: relative;
+    width: 100%;
+}

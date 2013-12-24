@@ -1,0 +1,100 @@
+@import "compass";
+@import "../../root_css/sass/all";
+
+// Landing div
+
+#landing_div_container {
+    position:relative;
+    margin:0 auto 0 auto;
+    height:600px;
+    text-align:center;
+    background-image:url("../image/malibu1.png");
+    background-size:cover;
+    background-position:50% 50%;
+    
+    #blurred_image {
+        height:600px;
+        background-image:url("../image/malibu1blurdark.png");
+        background-size:cover;
+        background-position:50% 50%;
+        opacity:1.0;
+    }
+    
+    #uwaft_slogan {
+        position:absolute;
+        top:48%;
+        left:10%;
+        right:10%;
+        font-size:3.5em;
+        font-weight:300;
+        color:#EEE;
+        text-align:center;
+        opacity:0.0;
+    }
+}
+
+.car_info {
+    position:absolute;
+    color:#EEE;
+    font-size:1.25em;
+    font-weight:300;
+    opacity:0.0;
+    text-align:center;
+}
+
+//The information about the car
+#maintitle {
+    top:20%;
+    left:20%;
+    font-size:1.7em;
+}
+
+#engine {
+    top:13%;
+    right:20%;
+}
+
+#headlights {
+    top:85%;
+    left:25%;
+}
+
+#output {
+    top:80%;
+    right:20%;
+}
+
+.figure {
+    font-size:1.5em;
+}
+
+#range {
+    top:-870px;
+    left:270px;
+}
+
+// Sponsor bar
+
+#sponsorbar {
+    position:relative;
+    bottom:0px;
+    width:100%;
+    left:0px;
+    height:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+    min-width:980px;
+    text-align:center;
+    color:white;
+    font-weight:400;
+    font-style:italic;
+    font-size:40px;
+
+    // Gradient background and shadow
+    @include background-image(linear-gradient(rgba(254, 254, 254, 1), rgba(209, 209, 209, 1)));
+    box-shadow:0px 0px 10px #222;
+
+    img {
+        height:40px;
+    }
+}

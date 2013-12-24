@@ -63,14 +63,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 3, ../sass/nav.scss */
+/* line 3, ../../root_css/sass/nav.scss */
 nav {
   position: fixed;
   z-index: 1;
+  /* Width and height properties */
   width: 100%;
   max-width: 1500px;
   height: 60px;
   top: 0px;
+  /* Gradient background and shadow */
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #d1d1d1));
   background-image: -webkit-linear-gradient(#fefefe, #d1d1d1);
   background-image: -moz-linear-gradient(#fefefe, #d1d1d1);
@@ -78,7 +80,7 @@ nav {
   background-image: linear-gradient(#fefefe, #d1d1d1);
   box-shadow: 0px 0px 10px #222;
 }
-/* line 17, ../sass/nav.scss */
+/* line 18, ../../root_css/sass/nav.scss */
 nav ul {
   list-style-type: none;
   height: 60px;
@@ -87,7 +89,7 @@ nav ul {
   right: 60px;
   margin-top: 0px;
 }
-/* line 25, ../sass/nav.scss */
+/* line 26, ../../root_css/sass/nav.scss */
 nav ul * {
   display: inline-block;
   padding: 22px;
@@ -96,33 +98,137 @@ nav ul * {
   transition: all 0.1s;
   color: #969696;
 }
-/* line 34, ../sass/nav.scss */
+/* line 35, ../../root_css/sass/nav.scss */
 nav ul li:hover {
   color: #5eba40;
   background-color: rgba(0, 0, 0, 0.5);
 }
-/* line 40, ../sass/nav.scss */
+/* line 41, ../../root_css/sass/nav.scss */
 nav #logo {
   top: 5px;
   left: 60px;
   margin: 5px 60px 0 60px;
   height: 60px;
 }
-/* line 47, ../sass/nav.scss */
+/* line 48, ../../root_css/sass/nav.scss */
 nav .current_page {
   color: #5eba40;
 }
 
-/* line 52, ../sass/nav.scss */
+/* line 53, ../../root_css/sass/nav.scss */
 #nav_space {
   height: 60px;
   position: relative;
   width: 100%;
 }
 
-/* line 5, ../sass/all.scss */
+/* line 5, ../../root_css/sass/all.scss */
 html {
   margin: 0 auto 0 auto;
   max-width: 1500px;
   min-width: 1200px;
+}
+
+/* line 6, ../sass/home.scss */
+#landing_div_container {
+  position: relative;
+  margin: 0 auto 0 auto;
+  height: 600px;
+  text-align: center;
+  background-image: url("../image/malibu1.png");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+/* line 15, ../sass/home.scss */
+#landing_div_container #blurred_image {
+  height: 600px;
+  background-image: url("../image/malibu1blurdark.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  opacity: 1.0;
+}
+/* line 23, ../sass/home.scss */
+#landing_div_container #uwaft_slogan {
+  position: absolute;
+  top: 48%;
+  left: 10%;
+  right: 10%;
+  font-size: 3.5em;
+  font-weight: 300;
+  color: #EEE;
+  text-align: center;
+  opacity: 0.0;
+}
+
+/* line 36, ../sass/home.scss */
+.car_info {
+  position: absolute;
+  color: #EEE;
+  font-size: 1.25em;
+  font-weight: 300;
+  opacity: 0.0;
+  text-align: center;
+}
+
+/* line 46, ../sass/home.scss */
+#maintitle {
+  top: 20%;
+  left: 20%;
+  font-size: 1.7em;
+}
+
+/* line 52, ../sass/home.scss */
+#engine {
+  top: 13%;
+  right: 20%;
+}
+
+/* line 57, ../sass/home.scss */
+#headlights {
+  top: 85%;
+  left: 25%;
+}
+
+/* line 62, ../sass/home.scss */
+#output {
+  top: 80%;
+  right: 20%;
+}
+
+/* line 67, ../sass/home.scss */
+.figure {
+  font-size: 1.5em;
+}
+
+/* line 71, ../sass/home.scss */
+#range {
+  top: -870px;
+  left: 270px;
+}
+
+/* line 78, ../sass/home.scss */
+#sponsorbar {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 980px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fefefe), color-stop(100%, #d1d1d1));
+  background-image: -webkit-linear-gradient(#fefefe, #d1d1d1);
+  background-image: -moz-linear-gradient(#fefefe, #d1d1d1);
+  background-image: -o-linear-gradient(#fefefe, #d1d1d1);
+  background-image: linear-gradient(#fefefe, #d1d1d1);
+  box-shadow: 0px 0px 10px #222;
+}
+/* line 97, ../sass/home.scss */
+#sponsorbar img {
+  height: 40px;
 }

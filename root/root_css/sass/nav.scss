@@ -4,14 +4,13 @@ nav {
     position: fixed;
     z-index:1;
     
-    /* Width and height properties */
+    // Width and height properties
     width: 100%;
-    min-width: 1200px;
     max-width: 1500px;
     height: 60px;
     top: 0px;
     
-    /* Gradient background and shadow */
+    // Gradient background and shadow
     @include background-image(linear-gradient(rgba(254, 254, 254, 1), rgba(209, 209, 209, 1)));
     box-shadow: 0px 0px 10px #222;
 

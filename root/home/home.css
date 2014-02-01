@@ -4,14 +4,14 @@
     margin:0 auto 0 auto;
     height:600px;
     text-align:center;
-    background-image:url("image/malibu1.png");
+    background-image:url("image/fleet.JPG");
     background-size:cover;
     background-position:50% 50%;
 }
 
 #landing_div_blur {
     height:600px;
-    background-image:url("image/malibu1blurdark.png");
+    background-image:url("image/fleetBlur.png");
     background-size:cover;
     background-position:50% 50%;
     opacity:1.0;

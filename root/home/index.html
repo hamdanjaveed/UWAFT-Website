@@ -37,25 +37,23 @@ Requirements:
 
 <head>
     <title>UWAFT | Home</title>
-
+    
     <!-- Link to the css files -->
     <link type="text/css" rel="stylesheet" href="../root_css/stylesheet.css" />
-    <link type="text/css" rel="stylesheet" href="home.css" />
 
     <!-- The icon in the tab of the web browser -->
     <link rel="icon" type="image/png" href="../root_image/favicon.ico" />
 
     <!-- Link to the font -->
-    <link href='http://fonts.googleapis.com/css?family=Quicksand|Oxygen:400,300|Open+Sans:400italic,400,300,600' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 
-    <!-- Links to JQuery and its color plugin -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="../root_script/jquery.color-2.1.2.min.js"></script>
-
+    
     <!-- Links to the JavaScript files -->
-    <script src="script/index.js"></script>
     <script src="../root_script/nav.js"></script>
+    
+    <script src="script/index.js"></script>
+    <link type="text/css" rel="stylesheet" href="home.css" />
 </head>
 
 <body>
@@ -84,6 +82,7 @@ Requirements:
             change
         </h1>
 
+<!--
         <h1 class="car_info" id="engine">
             UP TO
             <span class="figure">85%</span>
@@ -104,6 +103,7 @@ Requirements:
             <span class="figure">265 KM</span>
             <br/>MAX RANGE
         </h1>
+-->
     </div>
 
     <div id="sponsorbar">
@@ -129,11 +129,11 @@ Requirements:
                 Our re-engineered Malibu has two 140 HP electric motors, along with an engine able to run on up to 85% ethanol. When your charge becomes too low, it'll turn on to keep you driving. The best part? If you never drop below 20%, then you'll never use a drop of gas.
             </div>
         </div>
-        <img src="image/info_image_3.jpg" height="100%" style="float:right" />
+        <img src="image/info1.JPG" height="100%" style="float:right" />
     </div>
 
     <div class="info_div" id="info_div_2">
-        <img src="image/info_image_1.png" height="100%" style="float:left" />
+        <img src="image/info2.JPG" height="100%" style="float:left" />
         <div class="info_div_even_text_table">
             <div class="info_div_text_cell">
                 <span class="subtitle">
@@ -159,15 +159,18 @@ Requirements:
                      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
             </div>
         </div>
-        <img src="image/info_image_2.jpg" height="100%" width="60%" style="float:right" />
+        <img src="image/info3.JPG" height="100%" style="float:right" />
     </div>
 
     <div id="footer">
+        <br>
         <a class="social" id="email" href="mailto:info@uwaft.com"></a>
         <a class="social" id="facebook" href="https://www.facebook.com/uwaft?fref=ts"></a>
         <a class="social" id="twitter" href="https://twitter.com/UWAFT"></a>
 
-        <p>© 2013 University of Waterloo Alternative Fuels Team</p>
+        <div><p>© 2013 University of Waterloo Alternative Fuels Team</p></div>
+        
+        <br>
         <a href="https://twitter.com/UWAFT" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @UWAFT</a>
         <script>
             ! function(d, s, id) {
@@ -181,7 +184,12 @@ Requirements:
                 }
             }(document, 'script', 'twitter-wjs');
         </script>
+        <br>
+        <br>
     </div>
+    
+    <!-- Links to JQuery and its color plugin -->
+    <script src="../root_script/jquery.color-2.1.2.min.js"></script>
 </body>
 
 </html>

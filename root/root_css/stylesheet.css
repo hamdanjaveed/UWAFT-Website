@@ -140,3 +140,16 @@ nav {
 }
 
 
+
+#titleDiv {
+    padding:25px;
+    text-align:center;
+    background-color:#FFF;
+    color:#666;
+    font-weight:300;
+    margin-bottom:25px;
+    margin-top:25px;
+    font-size:4em;
+    
+    box-shadow:0px 0px 10px #222;
+}

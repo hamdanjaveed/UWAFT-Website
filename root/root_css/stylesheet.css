@@ -35,8 +35,9 @@ nav {
     top:0px;
     height:60px;
     width:100%;
+    max-width:1500px;
     min-width:inherit;
-    margin:0 auto 0 auto;
+    margin:0 auto;
 }
 
     /* This refers to the list of buttons in the navigation bar. */

@@ -1,3 +1,8 @@
+body:after{
+    display:none;
+    content: url("image/fleet.JPG") url("image/fleetBlur.png");
+}
+
 /* The Landing div that contains the image */
 #landing_div {
     position:relative;

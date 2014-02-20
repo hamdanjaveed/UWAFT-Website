@@ -126,7 +126,8 @@ body:after{
 
 .subtitle {
     font-size:36px;
-    font-weight:300;
+    font-weight:400;
+    color:#333;
 }
 
 p {
@@ -182,4 +183,8 @@ p {
 
 #sponsorbar img {
     height:40px;
+}
+
+#landingVideo iframe {
+    margin:0 auto;
 }

@@ -1,0 +1,145 @@
+<!-- Website requirements (taken from the facebook page, see:https://www.facebook.com/groups/591982934192138/permalink/592857804104651/)
+
+Problems with the old website:
+    - looks horrible
+    - boring
+    - generic
+
+The solution needs to:
+    - be unique
+    - think auto manufacturer
+        > http://www.teslamotors.com
+        > http://www.ds5.citroen.com
+
+Requirements:
+    - land on uwaft.com and see cars
+    - market the current vehicle (Malibu)
+    - showcase the older cars as well
+    - for each vehicle we need to show:
+        > pictures
+        > features
+        > specs
+        > architecture
+    - have a page to show the lab, facility and other pictures
+    - have a page to show the team, the categories are:
+        > engineering
+            - core
+            - co-op
+            - 4th year
+        > business
+        > communications
+    - a test drive button
+    - a place to play mini-games
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UWAFT | Our Fleet</title>
+    <!-- Link to the css files -->
+    <link type="text/css" rel="stylesheet" href="../root_css/stylesheet.css" />
+
+    <!-- The icon in the tab of the web browser -->
+    <link rel="icon" type="image/png" href="../root_image/favicon.ico" />
+
+    <!-- Link to the font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+    <!-- Links to JQuery and its color plugin -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="../root_script/jquery.color-2.1.2.min.js"></script>
+
+    <!-- Links to the JavaScript files -->
+    <script src="../root_script/nav.js"></script>
+    
+    <script src="script/cars.js"></script>
+    <link type="text/css" rel="stylesheet" href="cars.css" />
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div id="nav">
+            <img src="../root_image/logo.png" id="logo" />
+            <ul>
+                <li id="nav_home">Home</li>
+                <li id="nav_cars" class="current_page">The Car</li>
+                <li id="nav_team">The Team</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="nav_space"></div>
+    
+    <div id="titleDiv">
+        The Chevrolet Malibu
+    </div>
+    
+    <!-- Placeholders -->
+    <div class="info_div" id="info_div_1">
+        <div class="info_div_odd_text_table">
+            <div class="info_div_text_cell">
+                <span class="subtitle">Completely redesigned for better fuel economy, you'll experience accleration only an electric car can provide.
+                </span>
+                <br>
+                <br>"Driven by two 140HP electric motors, you'll have no trouble reaching your destination with all-wheel drive. And with an estimated 60 kilometers per charge, you won't have to worry about gas prices either"
+            </div>
+        </div>
+        <img src="image/car1.JPG" height="100%" width="50%" style="float:right" />
+    </div>
+
+    <div class="info_div" id="info_div_2">
+        <img src="image/car2.JPG" height="100%" style="float:left" />
+        <div class="info_div_even_text_table">
+
+            <div class="info_div_text_cell">
+                <span class="subtitle">
+                    Adaptive Headlights
+                </span>
+                <br>
+                <br>"Driving a hybrid doesn't mean you have to sacrifice on premium options. With adaptive headlights, active suspension, and a 10-inch touchscreen for your convenience, this car will redefine your notion of a hybrid"
+            </div>
+        </div>
+    </div>
+
+    <div class="info_div" id="info_div_3">
+        <div class="info_div_odd_text_table">
+            <div class="info_div_text_cell">
+                <span class="subtitle">
+                    With our revolutionary engine etc etc this is awesome. Our engine produces 3 hp per kilowatt of hourse.
+                </span>
+                <br>
+                <br>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            </div>
+        </div>
+        <img src="image/car3.JPG" height="100%" width="50%" style="float:right" />
+    </div>
+
+    <div id="footer">
+        <a class="social" id="email" href="mailto:info@uwaft.com"></a>
+        <a class="social" id="facebook" href="https://www.facebook.com/uwaft?fref=ts"></a>
+        <a class="social" id="twitter" href="https://twitter.com/UWAFT"></a>
+
+        <div><p>COpyright 2014 University of Waterloo Alternative Fuels Team</p></div>
+        
+        <br>
+        <a href="https://twitter.com/UWAFT" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @UWAFT</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + '://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, 'script', 'twitter-wjs');
+        </script>
+        <br>
+        <br>
+    </div>
+</body>
+
+</html>

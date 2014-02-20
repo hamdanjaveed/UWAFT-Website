@@ -1,0 +1,163 @@
+<!-- Website requirements (taken from the facebook page, see:https://www.facebook.com/groups/591982934192138/permalink/592857804104651/)
+
+Problems with the old website:
+    - looks horrible
+    - boring
+    - generic
+
+The solution needs to:
+    - be unique
+    - think auto manufacturer
+        > http://www.teslamotors.com
+        > http://www.ds5.citroen.com
+
+Requirements:
+    - land on uwaft.com and see cars
+    - market the current vehicle (Malibu)
+    - showcase the older cars as well
+    - for each vehicle we need to show:
+        > pictures
+        > features
+        > specs
+        > architecture
+    - have a page to show the lab, facility and other pictures
+    - have a page to show the team, the categories are:
+        > engineering
+            - core
+            - co-op
+            - 4th year
+        > business
+        > communications
+    - a test drive button
+    - a place to play mini-games
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UWAFT | Home</title>
+    
+    <!-- Link to the css files -->
+    <link type="text/css" rel="stylesheet" href="../root_css/stylesheet.css" />
+
+    <!-- The icon in the tab of the web browser -->
+    <link rel="icon" type="image/png" href="../root_image/favicon.ico" />
+
+    <!-- Link to the font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    <!-- Links to the JavaScript files -->
+    <script src="../root_script/nav.js"></script>
+    
+    <script src="script/index.js"></script>
+    <link type="text/css" rel="stylesheet" href="home.css" />
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div id="nav">
+            <img src="../root_image/logo.png" id="logo" />
+            <ul>
+                <li id="nav_home" class="current_page">Home</li>
+                <li id="nav_cars">The Car</li>
+                <li id="nav_team">The Team</li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="nav_space"></div>
+
+    <!-- The first div on the landing page, contains a blurred image with text -->
+    <div id="landingVideo"><iframe src="https://docs.google.com/file/d/0B9KGr6chJ-TAdVAxZDFJYWVnWUE/preview" width="100%" height="630"></iframe></div>
+
+    <div id="sponsorbar">
+        <img src="image/sponsors/sponsor1.png" />
+        <img src="image/sponsors/sponsor3.png" />
+        <img src="image/sponsors/sponsor4.png" />
+        <img src="image/sponsors/sponsor5.png" />
+        <img src="image/sponsors/sponsor6.png" />
+        <img src="image/sponsors/sponsor7.png" />
+        <img src="image/sponsors/sponsor8.png" />
+        <img src="image/sponsors/sponsor9.png" />
+        <img src="image/sponsors/sponsor10.png" />
+    </div>
+
+    <!-- Placeholders -->
+    <div class="info_div" id="info_div_1">
+        <div class="info_div_odd_text_table">
+            <div class="info_div_text_cell">
+                <span class="subtitle">
+                    Designed with the Environment in mind, but that doesn't mean we've sacrificed Performance
+                </span>
+                <br><br>
+                Our re-engineered Malibu has two 140 HP electric motors, along with an engine able to run on up to 85% ethanol. When your charge becomes too low, it'll turn on to keep you driving. The best part? If you never drop below 20%, then you'll never use a drop of gas.
+            </div>
+        </div>
+        <img src="image/info1.JPG" height="100%" style="float:right" />
+    </div>
+
+    <div class="info_div" id="info_div_2">
+        <img src="image/info2.JPG" height="100%" style="float:left" />
+        <div class="info_div_even_text_table">
+            <div class="info_div_text_cell">
+                <span class="subtitle">
+                    Adaptive Driving
+                </span>
+                <br>
+                <br>
+                "At UWAFT, we're changing the way people drive. Imagine a car that adapts to how you drive, rather than you having to adapt to your car. We're working hard to make that a reality. 
+                <br>
+                <br>
+                To learn more about our adaptive driving strategy, check out <a href="https://uwaterloo.ca/stories/student-team-works-next-generation-smart-car">this great article</a> on UWAFT's progress for ECOCAR2" 
+            </div>
+        </div>
+    </div>
+
+    <div class="info_div" id="info_div_3">
+        <div class="info_div_odd_text_table">
+            <div class="info_div_text_cell">
+                <span class="subtitle">
+                    What people are saying about UWAFT
+                </span>
+                <br><br>
+                     "Working with UWAFT provided me with some great opportunities near the end of my undergraduate degree. Working on the marketing side of the Outreach Team I was able to attend different conferences and workshop and even had the opportunity to meet David Suzuki ... UWAFT really provides students with a number of learning opportunities where you can dictate your own success by the work you put it."
+            </div>
+        </div>
+        <img src="image/info3.JPG" height="100%" style="float:right" />
+    </div>
+
+    <div id="footer">
+        <br>
+        <a class="social" id="email" href="mailto:info@uwaft.com"></a>
+        <a class="social" id="facebook" href="https://www.facebook.com/uwaft?fref=ts"></a>
+        <a class="social" id="twitter" href="https://twitter.com/UWAFT"></a>
+
+        <div><p>Copyright 2014 University of Waterloo Alternative Fuels Team</p></div>
+        
+        <br>
+        <a href="https://twitter.com/UWAFT" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @UWAFT</a>
+        <script>
+            ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = p + '://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, 'script', 'twitter-wjs');
+        </script>
+        <br>
+        <br>
+    </div>
+    
+    <!-- Links to JQuery and its color plugin -->
+    <script src="../root_script/jquery.color-2.1.2.min.js"></script>
+</body>
+
+</html>
